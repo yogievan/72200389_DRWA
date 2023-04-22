@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7vTDp8diT6bs2cIma0lspYb5b1Mug6wy2yQzTAuHGBzjw93esJp88f80d62cMLeezwov6BYIWaxiFQAEO1k5qw==",
+  "dgSpecHash": "+yCtnF2ds9KNVbrXWPxWR13a5BF7tAntuebClFIYvBwSZ6uLpN4KtwyJcFSdkZepcVh1fs4dZHpFI0VUeLwdkw==",
   "success": true,
   "projectFilePath": "C:\\applications\\DRWA\\TodoApi\\BookStoreApi\\BookStoreApi.csproj",
   "expectedPackageFiles": [
@@ -24,6 +24,7 @@
     "C:\\Users\\Lenovo\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
