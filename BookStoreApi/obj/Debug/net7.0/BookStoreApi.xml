@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BookStoreApi</name>
+    </assembly>
+    <members>
+        <member name="M:BookStoreApi.Controllers.BooksController.Get">
+            <summary>
+            Get all of BookStoreItem.
+            </summary>
+            <returns>All BookStore Items</returns>
+            <response code="400">If the item is null</response>
+            <response code="401">error client-side</response>
+            <response code="404">If the item cannot be found</response>
+            <response code="500">If the request on the server failed unexpectedly</response>
+        </member>
+        <member name="M:BookStoreApi.Controllers.BooksController.Get(System.String)">
+            <summary>
+            Get a specific BookStoreItem.
+            </summary>
+            <param name="id"></param>
+            <returns>Specific Items of BookStore</returns>
+            <response code="400">If the item is null</response>
+            <response code="401">error client-side</response>
+            <response code="404">If the item cannot be found</response>
+            <response code="500">If the request on the server failed unexpectedly</response>    
+        </member>
+        <member name="M:BookStoreApi.Controllers.BooksController.Post(BookStoreApi.Models.Book)">
+             <summary>
+             Creates a BookStoreItem.
+             </summary>
+             <param name="newBook"></param>
+             <returns>A newly created BookStoreItem</returns>
+             <remarks>
+             Sample request:
+            
+                 POST /BookStoreApi
+                 {
+                 "Id": "Random Number",
+                 "Name": "Book Name",
+                 "Price": 1.0,
+                 "Category": "Book Category",
+                 "Author": "Name of Author"
+                 }
+            
+             </remarks>
+             <response code="201">Returns the newly created item</response>
+             <response code="400">If the item is null</response>
+             <response code="401">error client-side</response>
+             <response code="404">If the item cannot be found</response>
+             <response code="500">If the request on the server failed unexpectedly</response>
+        </member>
+        <member name="M:BookStoreApi.Controllers.BooksController.Update(System.String,BookStoreApi.Models.Book)">
+            <summary>
+            Update a specific BookStoreItem.
+            </summary>
+            <param name="id"></param>
+            <returns>pdate a specific BookStore Items</returns>
+            <response code="400">If the item is null</response>
+            <response code="401">error client-side</response>
+            <response code="404">If the item cannot be found</response>
+            <response code="500">If the request on the server failed unexpectedly</response>
+        </member>
+        <member name="M:BookStoreApi.Controllers.BooksController.Delete(System.String)">
+            <summary>
+            Deletes a specific BookStoreItem.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+            <response code="400">If the item is null</response>
+            <response code="401">error client-side</response>
+            <response code="404">If the item cannot be found</response>
+            <response code="500">If the request on the server failed unexpectedly</response>
+        </member>
+    </members>
+</doc>
