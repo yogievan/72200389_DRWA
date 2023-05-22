@@ -1,4 +1,4 @@
-using BookStoreApi.Models;
+using BookStoreApi.Model;
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
 

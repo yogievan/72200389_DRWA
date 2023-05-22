@@ -92,3 +92,10 @@ C:\applications\DRWA\TodoApi\BookStoreApi\obj\Debug\net7.0\BookStoreApi.genrunti
 C:\applications\DRWA\TodoApi\BookStoreApi\obj\Debug\net7.0\ref\BookStoreApi.dll
 C:\applications\DRWA\TodoApi\BookStoreApi\bin\Debug\net7.0\BookStoreApi.xml
 C:\applications\DRWA\TodoApi\BookStoreApi\obj\Debug\net7.0\BookStoreApi.xml
+C:\applications\DRWA\TodoApi\BookStoreApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\applications\DRWA\TodoApi\BookStoreApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\applications\DRWA\TodoApi\BookStoreApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\applications\DRWA\TodoApi\BookStoreApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\applications\DRWA\TodoApi\BookStoreApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\applications\DRWA\TodoApi\BookStoreApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\applications\DRWA\TodoApi\BookStoreApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll

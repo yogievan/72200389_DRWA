@@ -1,4 +1,4 @@
-namespace BookStoreApi.Models;
+namespace BookStoreApi.Model;
 
 public class BookStoreDatabaseSettings
 {

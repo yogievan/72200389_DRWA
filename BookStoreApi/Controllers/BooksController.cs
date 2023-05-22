@@ -1,6 +1,7 @@
-using BookStoreApi.Models;
+using BookStoreApi.Model;
 using BookStoreApi.Services;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 
 namespace BookStoreApi.Controllers;
 
@@ -22,6 +23,7 @@ public class BooksController : ControllerBase
     /// <response code="404">If the item cannot be found</response>
     /// <response code="500">If the request on the server failed unexpectedly</response>
     [HttpGet]
+    [Authorize]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status401Unauthorized)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
@@ -39,6 +41,7 @@ public class BooksController : ControllerBase
     /// <response code="404">If the item cannot be found</response>
     /// <response code="500">If the request on the server failed unexpectedly</response>    
     [HttpGet("{id:length(24)}")]
+    [Authorize]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status401Unauthorized)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
@@ -79,6 +82,7 @@ public class BooksController : ControllerBase
     /// <response code="404">If the item cannot be found</response>
     /// <response code="500">If the request on the server failed unexpectedly</response>
     [HttpPost]
+    [Authorize]
     [ProducesResponseType(StatusCodes.Status201Created)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status401Unauthorized)]
@@ -101,6 +105,7 @@ public class BooksController : ControllerBase
     /// <response code="404">If the item cannot be found</response>
     /// <response code="500">If the request on the server failed unexpectedly</response>
     [HttpPut("{id:length(24)}")]
+    [Authorize]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status401Unauthorized)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
@@ -131,6 +136,7 @@ public class BooksController : ControllerBase
     /// <response code="404">If the item cannot be found</response>
     /// <response code="500">If the request on the server failed unexpectedly</response>
     [HttpDelete("{id:length(24)}")]
+    [Authorize]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status401Unauthorized)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]

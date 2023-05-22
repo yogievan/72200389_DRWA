@@ -25,7 +25,7 @@
             <response code="404">If the item cannot be found</response>
             <response code="500">If the request on the server failed unexpectedly</response>    
         </member>
-        <member name="M:BookStoreApi.Controllers.BooksController.Post(BookStoreApi.Models.Book)">
+        <member name="M:BookStoreApi.Controllers.BooksController.Post(BookStoreApi.Model.Book)">
              <summary>
              Creates a BookStoreItem.
              </summary>
@@ -50,12 +50,12 @@
              <response code="404">If the item cannot be found</response>
              <response code="500">If the request on the server failed unexpectedly</response>
         </member>
-        <member name="M:BookStoreApi.Controllers.BooksController.Update(System.String,BookStoreApi.Models.Book)">
+        <member name="M:BookStoreApi.Controllers.BooksController.Update(System.String,BookStoreApi.Model.Book)">
             <summary>
             Update a specific BookStoreItem.
             </summary>
             <param name="id"></param>
-            <returns>pdate a specific BookStore Items</returns>
+            <returns>pdate a specific BookStore Item</returns>
             <response code="400">If the item is null</response>
             <response code="401">error client-side</response>
             <response code="404">If the item cannot be found</response>
@@ -66,7 +66,7 @@
             Deletes a specific BookStoreItem.
             </summary>
             <param name="id"></param>
-            <returns></returns>
+            <returns>Deletes a specific BookStore Item</returns>
             <response code="400">If the item is null</response>
             <response code="401">error client-side</response>
             <response code="404">If the item cannot be found</response>
